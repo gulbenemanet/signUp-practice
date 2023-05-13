@@ -1,0 +1,43 @@
+{
+    "name": "signin-signup-microservice-project",
+    "version": "1.0.0",
+    "description": "Sign-in Sign-up Microservice Project",
+    "main": "app.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "bootstrap": "^4.6.0",
+        "cookie-session": "^1.4.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.11.15",
+        "passport": "^0.4.1",
+        "passport-google-oauth20": "^2.0.0"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-sass": "^4.1.0",
+        "gulp-uglifycss": "^1.1.0",
+        "node-sass": "^5.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/femresirvan/signin-signup-microservice.git"
+    },
+    "bugs": {
+        "url": "https://github.com/femresirvan/signin-signup-microservice/issues"
+    },
+    "homepage": "https://github.com/femresirvan/signin-signup-microservice#readme"
+}
